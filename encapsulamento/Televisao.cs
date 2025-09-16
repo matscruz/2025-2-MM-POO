@@ -81,7 +81,7 @@ public class Televisao
 
     public void AtivarMudo()
     {
-        if (!mudo)
+        if (! mudo)
         {
             volumeAnterior = volume;
             mudo = true;
